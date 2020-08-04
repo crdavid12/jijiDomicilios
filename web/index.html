@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>JIJI</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link rel="stylesheet" href="../libreria/lib/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/hover/hover.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Responsive css -->
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png">
+
+
+</head>
+
+<body>
+
+  <!-- Inicio section navbar -->
+  <nav id="main-nav">
+    <div class="row">
+      <div class="container-fluid" style="background: black;">
+        <div class="row">
+          
+          <div class="col-12 col-sm-12 col-lg-2 type_menu">
+            <h1>jiji<span class="typed "></span></h1>
+          </div>
+          
+          <div class="col-12 col-sm-8 col-lg-8">
+            <ul class="list-unstyled">
+              <li><a href="../libreria/index.html" class="smoothScroll">Home</a></li>
+              <li><a href="#about" class="smoothScroll">Quienes somos</a></li>
+              <li><a href="#portfolio" class="smoothScroll">Portafolio</a></li>
+              <li><a href="#journal" class="smoothScroll">Novedades</a></li>
+              <li><a href="#contact" class="smoothScroll">Contactenos</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-4 col-lg-2 huellas">
+            <img src="../libreria/images/huella3a.jpg" alt="error">
+            <div class="inicio-sesion">
+              <ul>
+                <li><a href="#inicio-modal" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">INICIAR</a></li>
+                <li><a href="registro.html">REGISTRATE</a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Fin section navbar -->
+
+  <!-- Login -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">   
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Inicio de Sesion</h5>
+          <button type="button" class="close-login" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group input-group">
+              <input type="text" class="form-control" placeholder="Usuario" id="usuario-login">
+            </div>
+            <div class="form-group">
+                      <input type="password" class="form-control" placeholder="Contraseña" id="contraseña-login">
+                    </div>
+          </form>
+        </div>
+        <div class="modal-footer ">
+          <ul class="list-unstyled" >
+            <li class="d-inline">
+              <button type="button" class="btn btn-dark" onclick="validar()">Inicio</button>
+            </li>
+            <li class="d-inline"><a href="registro.html">Registrate</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin Login -->
+  
+  <!-- start section header -->
+  <div id="header" class="home">
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-3 col-lg-3 ">
+            <div class="header-img-izq">
+              <img src="../libreria/images/home-texto.jpg" alt="" >
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 header-img-central">        
+              <img src="../libreria/images/prueba-home-1.jpg" alt="" >
+          </div>
+          <div class="col-12 col-md-3 col-lg-3">
+            <div class="header-img-der">
+              <ul class="nav flex-column social-icons icon-circle list-unstyled list-inline">
+                <div>
+                  <li><a href="https://www.facebook.com/JiJi-entregas-a-domicilio-105870921175076" target="_blank">
+                    
+                    <i class="fa fa-facebook-square" ></i></a>
+                  </li>  
+                </div>
+                <div>
+                  <li><a href="https://wa.me/573124363720" target="_blank"><i class="fa fa-whatsapp"></i></a></li> 
+                </div>
+                <div>
+                  <li><a href="https://www.instagram.com/jiji_entregasadomicilio/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!-- End section header -->
+
+  <!-- start section about us -->
+  <div id="about" class="paddsection ">
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="images/me.jpg" class="img-responsive" alt="me">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="about-descr">
+
+            <p class="p-heading">JiJi entregas a domicilio</p>
+            <p class="separator">Llega para ayudarte a obtener aquella dosis gráfica que tu mente necesita, No dudes en pedirle tus mangas y cómics favoritos al mejor precio, JiJi te los llevara con todas las medidas de protección necesarias..</p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end section about us -->
+
+  <!-- start section services -->
+  <div id="services">
+    <div class="container">
+      <div class="services-carousel owl-theme">
+
+        <div class="services-block">
+          <i class="ion-ios-browsers-outline"></i>
+          <span>Libros</span>
+          <p class="separator">Los mejores libros de sus autores favoritos</p>
+        </div>
+
+        <div class="services-block">
+          <i class="ion-ios-color-wand-outline"></i>
+          <span>COMIC</span>
+          <p class="separator">Los mejores comic de tus super heroes favoritos al alcance de tus manos </p>
+        </div>
+
+        <div class="services-block">
+          <i class="ion-ios-analytics-outline"></i>
+          <span>MANGA</span>
+          <p class="separator">Los mangas mas reconocidos de las mangaskas mas importantes </p>
+        </div>
+
+        <div class="services-block">
+          <i class="ion-ios-camera-outline"></i>
+          <span>Ilustraciones</span>
+          <p class="separator">Las mejores ilustraciones de usus autores favoritos </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- end section services -->
+
+  <!-- start section portfolio -->
+  <div id="portfolio" class="text-center paddsection">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Portfolio</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="portfolio-list">
+
+            <ul class="nav list-unstyled" id="portfolio-flters">
+              <li class="filter filter-active" data-filter=".all">Todos</li>
+              <li class="filter" data-filter=".branding">Libros</li>
+              <li class="filter" data-filter=".mockups">Comic</li>
+              <li class="filter" data-filter=".uikits">Manga</li>
+              <li class="filter" data-filter=".webdesign">Ilustraciones</li>
+              <!--<li class="filter" data-filter=".photography">photography</li>-->
+            </ul>
+          </div>
+
+          <div class="portfolio-container">
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all uikits webdesign">
+              <a class="popup-img" href="images/portfolio/1.jpg">
+                <img src="images/portfolio/1.jpg" alt="img" class="tamaño-img-porta">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all uikits webdesign">
+              <a class="popup-img " href="images/portfolio/2.jpg">
+                <img src="images/portfolio/2.jpg"  alt="img" class="tamaño-img-porta">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesig">
+              <a class="popup-img" href="images/portfolio/3.jpg">
+                <img src="images/portfolio/3.jpg" alt="img" class="tamaño-img-porta">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all uikits webdesign">
+              <a class="popup-img" href="images/portfolio/4.jpg">
+                <img src="images/portfolio/4.jpg" alt="img" class="tamaño-img-porta">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesig">
+              <a class="popup-img" href="images/portfolio/5.jpg">
+                <img src="images/portfolio/5.jpg" alt="img" class="tamaño-img-porta">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesig">
+              <a class="popup-img" href="images/portfolio/6.jpg">
+                <img src="images/portfolio/6.jpg" alt="img" class="tamaño-img-porta">
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- End section portfolio -->
+
+  <!-- start section journal -->
+  <div id="journal" class="text-left paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Novedades</h2>
+      </div>
+    </div>
+
+    <div class="container">     
+      <div class="journal-block">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+              <a href="blog-single.html"><img src="images/blog-post-1.jpg" class="img-responsive" alt="img"  height="540px"></a>
+              <div class="journal-txt">
+                <h4 class="text-center"><a href="blog-single.html">Batman : La broma asesina-DC black label</a></h4>
+                <p class="separator text-justify">
+                  Batman: La broma asesina relata los orígenes del 
+				          supervillano más carismático del mundo del cómic.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+
+              <a href="blog-single.html"><img src="images/blog-post-2.jpg" class="img-responsive" alt="img" height="540px"></a>
+
+              <div class="journal-txt">
+
+                <h4 class="text-center"><a href="blog-single.html">BATMAN SUPERMAN</a></h4>
+                <p class="separator text-justify">Juntos son los mejores del mundo: Superman y Batman.</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+              <a href="blog-single.html"><img src="images/blog-post-3.jpg" class="img-responsive" alt="img" height="540px"></a>
+              <div class="journal-txt">
+                <h4 class="text-center"><a href="blog-single.html">TOKYO GHOUL 14</a></h4>
+                <p class="separator text-justify">La historia de un joven humano que, sin querer, se convierte en un híbrido de humano y ghoul. 
+                  ¿Logrará conservar su humanidad?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- End section journal -->
+
+  <!-- start section contact -->
+  <div id="contact" class="paddsection">
+    <div class="container">
+      <div class="contact-block1">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="contact-contact">
+              <h2 class="mb-30">CONTACTANOS</h2>
+              <ul class="contact-details">
+                <li><span>JIJI DOMICILIOS</span></li>
+                <li><span>Bogota, Colombia</span></li>
+                <li><span>+57 3124363720</span></li>
+                <li><span>example@example.com</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="row">
+
+                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+
+                <div class="col-lg-6">
+                  <div class="form-group contact-block1">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- start section contact -->
+
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a href="https://www.facebook.com/JiJi-entregas-a-domicilio-105870921175076"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/jiji_entregasadomicilio/"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="https://wa.me/573124363720"><i class="ion-social-whatsapp"></i></a></li>
+        </ul>
+      </div>
+      <p>&copy; Copyrights JIJI. All rights reserved.</p>
+      <div class="credits">
+        Designed by <a href="#">Julio Diaz Developer </a>
+      </div>
+
+    </div>
+  </div>
+  <!-- End section footer -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="../libreria/js/main.js"></script>
+
+</body>
+
+</html>
